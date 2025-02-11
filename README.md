@@ -1,8 +1,5 @@
-# web-dev-starter
-
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+# Overview
+This project is a basic web application emphasizing best practices for accessibility in web development for CS408 M5.2 Lab.
 
 ## Getting Started
 
@@ -13,16 +10,13 @@ npm install
 ```
 This will install the necessary dependencies for the project.
 
-## Development
-
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+## Running
+To run the project locally, install the Live Server extension for VScode. In the
+command palette, select `Live Preview: Start Server`. Then, connect to
+http://127.0.0.1:3000/ to view the running application.
 
 ## Testing
-
-To run the tests for the project, run the following command:
+To run the tests for this project, run the following command:
 
 ```bash
 npm test
