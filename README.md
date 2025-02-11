@@ -34,3 +34,6 @@ After running a [contrast test](https://webaim.org/resources/contrastchecker) on
 **Article Text**: The original site placed line breaks between text to have the appearance of paragraphs. To make the site navigable by a screen reader, paragraphs need to be marked with `<p>` tags.
 
 **Navigation Menu**: The original site wraps the navigation bar with `<div>` with a "nav" class. To improve accessibility here, we can use `<nav>` instead of `<div>`.
+
+### Images
+To make the images screen-reader accessible, `alt` and `title` attributes can be added describing the image contents.
