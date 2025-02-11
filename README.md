@@ -21,3 +21,9 @@ To run the tests for this project, run the following command:
 ```bash
 npm test
 ```
+
+## Accessibility Lab Answers
+
+### Color
+After running a [contrast test](https://webaim.org/resources/contrastchecker) on the original site based on the text color and background, we see that it returns poor results:
+![Failing Test Results](media/ColorTestFail.png)
