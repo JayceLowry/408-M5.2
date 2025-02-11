@@ -27,3 +27,10 @@ npm test
 ### Color
 After running a [contrast test](https://webaim.org/resources/contrastchecker) on the original site based on the text color and background, we see that it returns poor results:
 ![Failing Test Results](media/ColorTestFail.png)
+
+### Semantic HTML
+**Keyboard Navigation**: When trying to navigate the site using the keyboard, large sections of the page's content are skipped over. This can be mitigated by adding a `tabindex="0"` attribute to headings and images to make the site more keyboard-navigable.
+
+**Article Text**: The original site placed line breaks between text to have the appearance of paragraphs. To make the site navigable by a screen reader, paragraphs need to be marked with `<p>` tags.
+
+**Navigation Menu**: The original site wraps the navigation bar with `<div>` with a "nav" class. To improve accessibility here, we can use `<nav>` instead of `<div>`.
