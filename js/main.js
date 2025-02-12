@@ -5,6 +5,9 @@ const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
 
+/**
+ * Handles showing and hiding the comments section.
+ */
 showHideBtn.onclick = function() {
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
@@ -23,11 +26,17 @@ const nameField = document.querySelector('#name');
 const commentField = document.querySelector('#comment');
 const list = document.querySelector('.comment-container');
 
+/**
+ * Submit handler for the comments form.
+ */
 form.onsubmit = function(e) {
   e.preventDefault();
   submitComment();
 };
 
+/**
+ * Handles adding comments to the comments section.
+ */
 function submitComment() {
   const listItem = document.createElement('li');
   const namePara = document.createElement('p');

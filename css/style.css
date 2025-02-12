@@ -24,7 +24,7 @@ input[type="submit"], button {
   outline-style: ridge;
   outline-width: 2px;
   outline-offset: 5px;
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 /* || typography */
@@ -154,7 +154,7 @@ footer {
 
 table {
   width: 100%;
-  background-color: #dde;
+  background-color: rgb(226, 226, 232);
   border-collapse: collapse;
 }
 
@@ -171,7 +171,7 @@ th[scope="col"] {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #def;
+  background-color: rgba(255, 255, 255, 0.678);
 }
 
 /* styling content images and audio */
@@ -197,7 +197,7 @@ audio {
 /* Comments styling */
 
 .comments {
-  background-color: #def;
+  background-color: rgb(226, 226, 232);
   padding: 10px;
 }
 
