@@ -49,3 +49,6 @@ their respective inputs with their id attributes.
 
 ### Show/Hide Comment Control
 To make the show/hide comment button keyboard navigable, we can make it a `<button>` element rather than a `<div>`.
+
+### Table
+To make the table more screen-readable, we can mark table headers with `<th>` tags, and specify their `scope` - in this example, the headers have column scope. We can also add a `<caption>` to the table to summarize what the table is.
