@@ -46,3 +46,6 @@ source file to ensure they still have access.
 To make the search form more accessible, we can wrap it in a `<search>` tag, and give `<input>` tags `aria-label` attributes to give them explicit labels for screen readers
 without having them also show up visually. We can wrap the text labels that appear next to the `<input>` elements for the comment form with `<label>` tags, and we can link them to
 their respective inputs with their id attributes.
+
+### Show/Hide Comment Control
+To make the show/hide comment button keyboard navigable, we can make it a `<button>` element rather than a `<div>`.

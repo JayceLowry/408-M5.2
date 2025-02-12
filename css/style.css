@@ -236,6 +236,7 @@ audio {
   background: #333;
   border: 0;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .comment-form input[type="submit"] {
