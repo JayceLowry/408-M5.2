@@ -42,3 +42,7 @@ To make the images screen-reader accessible, `alt` and `title` attributes can be
 To make the audio content more accessible, we can add a text transcript for it. For users with old browsers that don't support HTML audio, we can add a link to the
 source file to ensure they still have access.
 
+### Forms
+To make the search form more accessible, we can wrap it in a `<search>` tag, and give `<input>` tags `aria-label` attributes to give them explicit labels for screen readers
+without having them also show up visually. We can wrap the text labels that appear next to the `<input>` elements for the comment form with `<label>` tags, and we can link them to
+their respective inputs with their id attributes.

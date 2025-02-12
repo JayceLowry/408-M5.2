@@ -92,6 +92,10 @@ nav[class="nav"] a {
   color: black;
 }
 
+nav[class="nav"] search {
+  width: 36%;
+}
+
 nav[class="nav"] .search {
   flex: 1;
   display: flex;
