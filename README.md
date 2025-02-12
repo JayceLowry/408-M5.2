@@ -37,3 +37,8 @@ After running a [contrast test](https://webaim.org/resources/contrastchecker) on
 
 ### Images
 To make the images screen-reader accessible, `alt` and `title` attributes can be added describing the image contents.
+
+### Audio Player
+To make the audio content more accessible, we can add a text transcript for it. For users with old browsers that don't support HTML audio, we can add a link to the
+source file to ensure they still have access.
+

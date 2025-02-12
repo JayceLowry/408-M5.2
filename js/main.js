@@ -45,3 +45,23 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+const transcriptButton = document.querySelector(".transcript-container button");
+const transcriptContent = document.querySelector(".transcript");
+
+/**
+ * Handles showing and hiding the audio transcript.
+ */
+transcriptButton.onclick = () => {
+  const isShowing = transcriptButton.getAttribute("showing") === "true";
+
+  if (!isShowing) {
+    transcriptContent.style.height = "60px";
+    transcriptButton.textContent = "Hide Transcript";
+    transcriptButton.setAttribute("showing", "true");
+  } else {
+    transcriptContent.style.height = "0";
+    transcriptButton.textContent = "Show Transcript";
+    transcriptButton.setAttribute("showing", "false");
+  }
+};

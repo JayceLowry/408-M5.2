@@ -170,6 +170,15 @@ audio {
   width: 500px;
 }
 
+.transcript-container {
+  justify-items: center;
+}
+
+.transcript {
+  height: 0;
+  overflow: auto;
+}
+
 /* Comments styling */
 
 .comments {
