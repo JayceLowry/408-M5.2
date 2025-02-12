@@ -52,3 +52,6 @@ To make the show/hide comment button keyboard navigable, we can make it a `<butt
 
 ### Table
 To make the table more screen-readable, we can mark table headers with `<th>` tags, and specify their `scope` - in this example, the headers have column scope. We can also add a `<caption>` to the table to summarize what the table is.
+
+### Additional Accessibility Considerations
+We can provide additional visual feedback by giving submission inputs and buttons a pointer cursor when hovered over. To improve visual feedback for keyboard navigation, we can style elements with `:focus-visible` so that it's easier to tell which element is selected.

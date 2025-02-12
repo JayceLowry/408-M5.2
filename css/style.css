@@ -16,6 +16,17 @@ body {
   margin: 0 auto;
 }
 
+input[type="submit"], button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline-style: ridge;
+  outline-width: 2px;
+  outline-offset: 5px;
+  background-color: lightblue;
+}
+
 /* || typography */
 
 h1, h2, h3 {
